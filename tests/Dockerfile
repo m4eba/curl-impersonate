@@ -7,7 +7,7 @@ FROM python:3.11-slim-bookworm
 WORKDIR /tests
 
 RUN apt-get update && \
-    apt-get install -y tcpdump libbrotli1 gcc libcurl4-openssl-dev nghttp2-server git
+    apt-get install -y tcpdump libbrotli1 gcc libcurl4-openssl-dev nghttp2-server git libc++1
 
 COPY requirements.txt requirements.txt
 

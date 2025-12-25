@@ -23,7 +23,7 @@ NGHTTP3_VERSION := 1.9.0
 NGHTTP3_URL := https://github.com/ngtcp2/nghttp3/releases/download/v$(NGHTTP3_VERSION)/nghttp3-$(NGHTTP3_VERSION).tar.bz2
 CARES_VERSION := 1.30.0
 CARES_URL := https://github.com/c-ares/c-ares/releases/download/v$(CARES_VERSION)/c-ares-$(CARES_VERSION).tar.gz
-CURL_VERSION := curl-8_15_0
+CURL_VERSION := curl-8_16_0
 
 # https://github.com/google/brotli/commit/641bec0e30bea648b3da1cd90fc6b44deb429f71
 brotli_install_dir := $(abspath brotli-$(BROTLI_VERSION)/out/installed)
